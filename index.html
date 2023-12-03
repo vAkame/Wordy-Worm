@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles/styles.css" />
+		<script src="./javascript/Storage.js" defer></script>
+		<script src="./javascript/History.js" defer></script>
+		<script src="./javascript/Dictionary.js" defer></script>
+		<script src="./javascript/App.js" defer></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Navigation -->
+		<header>
+			<nav>
+				<ul>
+					<li><a href="./history.html">History</a></li>
+					<li><a href="./saved.html">Saved</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<!-- Search / Hero -->
+			<div id="hero">
+				<form action="#">
+					<div class="control-input">
+						<input
+							type="text"
+							name="search"
+							id="search"
+							placeholder="Search for a word..."
+						/>
+					</div>
+
+					<div class="control-input">
+						<button id="random">Feeling Random</button>
+						<input type="submit" value="Search" />
+					</div>
+				</form>
+
+				<!-- Word Search Result -->
+				<div class="word-result">
+					<div class="word-name">
+						<h2 class="word-title">Apple</h2>
+						<!-- Save or Unsave -->
+						<button class="save-btn">Save</button>
+					</div>
+
+					<p>Origin:</p>
+					<p>Phonetics:</p>
+
+					<ul>
+						<li>
+							<div class="definition">
+								<h3>Part of Speech - Definition</h3>
+								<p>Example Sentence</p>
+								<p>Synonyms:</p>
+								<p>Antonyms:</p>
+							</div>
+						</li>
+
+						<li>
+							<div class="definition">
+								<h3>Part of Speech - Definition</h3>
+								<p>Example Sentence</p>
+								<p>Synonyms:</p>
+								<p>Antonyms:</p>
+							</div>
+						</li>
+
+						<li>
+							<div class="definition">
+								<h3>Part of Speech - Definition</h3>
+								<p>Example Sentence</p>
+								<p>Synonyms:</p>
+								<p>Antonyms:</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
