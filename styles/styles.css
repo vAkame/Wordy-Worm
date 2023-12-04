@@ -26,6 +26,7 @@ ul {
 .container {
 	margin: 0 auto;
 	max-width: 1280px;
+	padding: 0.75rem 3rem;
 }
 
 /* Navigation */
@@ -38,9 +39,6 @@ header {
 
 h1 {
 	font-size: 1.5rem;
-}
-
-nav {
 }
 
 nav ul {
@@ -75,8 +73,8 @@ form {
 	padding: 0.5rem 1.75rem;
 }
 
-#random,
 input[type='submit'] {
+	width: 100%;
 	color: white;
 	cursor: pointer;
 	border: none;
@@ -84,16 +82,20 @@ input[type='submit'] {
 	padding: 0.5rem 1.75rem;
 }
 
-#random {
-	background-color: #1070b9;
-}
-
 input[type='submit'] {
 	background-color: #a12b28;
 }
 
 /* Word Definition Section */
-.word-result {
+.results {
 	padding: 3rem;
 	margin-bottom: 5rem;
+}
+
+.results .definition-list li {
+	margin-top: 1rem;
+}
+
+.word {
+	margin-bottom: 2rem;
 }
